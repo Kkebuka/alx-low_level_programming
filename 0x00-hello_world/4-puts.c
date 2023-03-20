@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *main - this is a script that uses puts not printf
-*return: 0 (success)
+*Return: 0 (success)
 */
 int main(void)
 {
