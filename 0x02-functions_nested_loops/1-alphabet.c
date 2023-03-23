@@ -1,20 +1,17 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main -  I sometimes suffer from insomnia
- * And when I can't fall asleep, I play what I call the alphabet game
- * Return: 0 success
+ * print_alphabet - print all alphabet in lowercase
  */
-int main(void)
+
+
+void print_alphabet(void)
 {
-	int n = 97;
+	char letter;
 
-	while (n <= 122)
-	{
-		putchar(n);
-		n++;
-	}
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
 	putchar('\n');
-	return (0);
 }
-
 
